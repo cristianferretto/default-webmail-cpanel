@@ -3,8 +3,6 @@
 DOMAIN=$1
 APP=$2
 
-clear
-
 if [ -z "$DOMAIN" ]; then
 	echo "Set the domain name."
 	exit 1
